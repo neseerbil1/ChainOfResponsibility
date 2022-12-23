@@ -1,0 +1,13 @@
+﻿@model ChainOfResponsobolity.ChainOfResponsobilityDesignPattern.WithDraw
+@{
+    Layout = null;
+}
+<link href="~/lib/bootstrap/dist/css/bootstrap.css" rel="stylesheet" />
+<form method="post">
+    <div class="container"></div>
+    <br />
+    <label>Miktar</label>
+    <input type="text" class="form-control" asp-for="Amount" />
+    <br />
+    <button class="btn btn-warning">Para Çek</button>
+</form>
